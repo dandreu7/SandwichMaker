@@ -43,7 +43,7 @@ class SandwichMachine:
         self.is_on = True
 
     def check_resources(self, ingredients):
-        """Returns True when the order can be made, False if ingredients are insufficient."""
+        """Returns True when the order can be made Returns False if ingredients are insufficient."""
         for ingredient, amount in ingredients.items():
             if self.machine_resources[ingredient] < amount:
                 print(f"Sorry! There is not enough {ingredient} for your sandwich!")
