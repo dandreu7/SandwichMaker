@@ -51,7 +51,7 @@ class SandwichMachine:
         return True
 
     def process_coins(self):
-        """Returns the total calculated from coins inserted."""
+        """Returns total calculated from coins inserted."""
         print("Please insert coins for payment.")
         dollars = int(input("How many dollars ($1)? ")) * 1.00
         half_dollars = int(input("How many half dollars ($0.5)? ")) * 0.50
